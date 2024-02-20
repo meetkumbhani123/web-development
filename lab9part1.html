@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+        }
+        
+        .meet{
+            height: 200px;
+            width: 400px;
+            background: red;
+            animation-name: Changecolor;
+            font-size: 40px;
+            position: absolute;
+            animation-duration: 2s;
+            animation-delay: 2s ;
+            animation-iteration-count:infinite ;
+            animation-direction: reverse;
+            animation-timing-function:linear;
+        }
+        @keyframes Changecolor {
+            0%{
+                background-color: red;
+            }
+            25%{
+                left: 700px;top: 0px;
+            }
+            50%{
+                left: 700px; top: 500px;
+            }
+            75%{
+                left:0px;top: 500px;
+            }
+            100%{
+               background: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="meet">
+            vijaykaka
+    </div>
+</body>
+</html>
