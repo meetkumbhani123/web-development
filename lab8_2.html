@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        .bgimage {
+            background-image: url("./gt.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 98vh;
+            width: 100%
+        }
+
+        img {
+            width: 90%;
+            height: 50%;
+            margin-left: 78px;
+            margin-top: 50px;
+            z-index: -1;
+
+        }
+        .header{
+            float: left;
+            position:absolute;
+            top: 80px;
+            left: 250px;
+            
+        }
+        a{
+            padding: 20px;
+            font-size: 20px;
+        }
+        input[type=text]{
+            border:none;
+            -webkit-border-radius:15px;
+            border: 1px solid;
+            border-color: aqua;
+        }
+        input[type=submit]{
+            border:none;
+            -webkit-border-radius:15px;
+            border: 1px solid;
+            border-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bgimage">
+        <img src="./pointmen.jpeg">
+        <div class="header">
+            <a style="color:red"> Home</a>
+            <a> My intro</a>
+            <a> Service</a>
+            <a> <select>
+                    <option> pages</option>
+                </select>
+            </a>
+            <a> contect</a>
+            <input style="margin-left: 400px;" type="text" placeholder="Enter keyword"> 
+            <input style="background-color: red; " type="submit" value="search"> 
+            <div> 
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
